@@ -1,0 +1,12 @@
+public class Learn {
+    public static void main(String[] args) {
+        double d = 8;
+        double n = 5;
+        double R1;
+        double R;
+        R = n*100 + n*10 + n + d/10 + d/100 + d/1000;
+        R1 = d*100 + d*10 + d + n/10 + n/100 + n/1000;
+        System.out.println("The original number is " + R);
+        System.out.println("The finite number is " + R1);
+    }
+}
