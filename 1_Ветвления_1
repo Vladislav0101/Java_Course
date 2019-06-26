@@ -1,0 +1,15 @@
+public class Learn {
+    public static void main(String[] args) {
+        int x = 140;
+        int y = 40;
+        String a;
+        if ((x+y) < 180){
+            if (x+y == 90){
+                a = "Да, он прямоугольный";
+            }else {a="Нет, он не прямоуголный";}
+        }else {a="Это не треугольник";}
+        System.out.println(a);
+    }
+}
+
+
