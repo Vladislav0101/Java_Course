@@ -1,0 +1,10 @@
+public class Learn {
+    public static void main(String[] args) {
+        int T = 54915;
+        int HH = T/3600;
+        int HHO = T%3600;
+        int MM = HHO/60;
+        int SS = HHO%60;
+        System.out.println(HH + "ч" + MM + "мин" + SS + "сек");
+    }
+}
