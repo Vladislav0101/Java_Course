@@ -1,0 +1,11 @@
+public class Learn {
+    public static void main(String[] args) {
+        int a=0;
+       for (char num =0; num <= 200; num++){
+           a++;
+           System.out.println(a + "=" + num);
+       }
+    }
+}
+
+
